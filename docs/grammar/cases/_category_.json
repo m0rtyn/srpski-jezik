@@ -1,4 +1,10 @@
 {
   "label": "Падежи",
-  "collapsed": false
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "slug": "/grammar/cases",
+    "title": "Падежи",
+    "description": "Сводные материалы по падежам сербского языка"
+  }
 }
