@@ -1,0 +1,4 @@
+# pnpm workspace configuration
+# Delay installation of newly published package versions to reduce supply-chain risk.
+# One month ≈ 30 days * 24 hours * 60 minutes = 43200 minutes.
+minimumReleaseAge: 43200
