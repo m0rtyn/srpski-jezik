@@ -11,6 +11,10 @@ sidebar_position: 1
 - [Именительный (Nominativ)](./grammar/cases/nominative)
 - [Творительный (Instrumental)](./grammar/cases/instrumental)
 
+А ещё посмотрите «Разговорник»:
+
+- [Частотные фразы 2025](./phrasebook/common-phrases-2025)
+
 Полезно знать:
 
 - В каждом разделе сначала кратко — «зачем и как употреблять», затем окончания и примеры.
