@@ -52,21 +52,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -82,7 +68,7 @@ const config = {
           hashed: true,
           language: ['ru', 'en'],
           indexDocs: true,
-          indexBlog: true,
+          indexBlog: false,
           indexPages: true,
           removeDefaultStopWordFilter: false,
           highlightSearchTermsOnTargetPage: true,
@@ -111,9 +97,8 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Документация',
+            label: 'Грамматика',
           },
-          {to: '/blog', label: 'Блог', position: 'left'},
           {
             href: 'https://github.com/m0rtyn/srpski-jezik',
             label: 'GitHub',
@@ -123,47 +108,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Документация',
-            items: [
-              {
-                label: 'Документация',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'Ещё',
-            items: [
-              {
-                label: 'Блог',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/m0rtyn/srpski-jezik',
-              },
-            ],
-          },
-        ],
+        links: [],
+
         copyright: `© ${new Date().getFullYear()} Сербский: грамматика. Построено на Docusaurus.`,
       },
       prism: {

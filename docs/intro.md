@@ -10,6 +10,15 @@ sidebar_position: 1
 
 - [Именительный (Nominativ)](./grammar/cases/nominative)
 - [Творительный (Instrumental)](./grammar/cases/instrumental)
+- [Родительный (Genitiv)](./grammar/cases/genitive)
+- [Винительный (Akuzativ)](./grammar/cases/accusative)
+- [Дательный (Dativ)](./grammar/cases/dative)
+- [Предложный (Lokativ)](./grammar/cases/locative)
+- [Звательный (Vokativ)](./grammar/cases/vocative)
+
+И для быстрой ориентации:
+
+- [Сводная таблица падежей](./grammar/cases/summary)
 
 А ещё посмотрите «Разговорник»:
 

@@ -21,3 +21,15 @@
   align-items: center;
   justify-content: center;
 }
+
+.searchSection {
+  padding: 2rem 0 0;
+}
+
+.searchHeroWrapper {
+  margin: 0 auto;
+}
+
+.searchHeroWrapper :global(kbd) {
+  display: none
+}

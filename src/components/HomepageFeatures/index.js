@@ -5,43 +5,48 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Быстрая шпаргалка',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Падежи',
     description: (
       <>
-        Короткие правила, окончания и примеры — всё под рукой, без воды.
+        Основные падежи сербского языка с правилами и примерами.
+        <br />
+        <Link to="/docs/grammar/cases/summary">Сводная таблица падежей</Link>
+        <br />
+        <Link to="/docs/grammar/cases/nominative">Именительный</Link> ·{' '}
+        <Link to="/docs/grammar/cases/genitive">Родительный</Link> ·{' '}
+        <Link to="/docs/grammar/cases/accusative">Винительный</Link>
       </>
     ),
   },
   {
-    title: 'Удобная навигация',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Глаголы',
     description: (
       <>
-        Разделы «Грамматика → Падежи». Начните с{' '}
-        <Link to="/docs/grammar/cases/nominative">Именительного</Link> и{' '}
-        <Link to="/docs/grammar/cases/instrumental">Творительного</Link>.
+        Времена и формы глагола.
+        <br />
+        <Link to="/docs/grammar/verbs/past-tense">Прошедшее время (perfekat)</Link>
+        <br />
+        <Link to="/docs/grammar/verbs">Все материалы по глаголам</Link>
       </>
     ),
   },
   {
-    title: 'Поиск и масштаб',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Разговорник',
     description: (
       <>
-        В планах — DocSearch/локальный поиск. Контент легко расширять и
-        поддерживать.
+        Частотные фразы для повседневной речи и переезда.
+        <br />
+        <Link to="/docs/phrasebook/common-phrases-2025">
+          Частотные фразы 2025
+        </Link>
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
