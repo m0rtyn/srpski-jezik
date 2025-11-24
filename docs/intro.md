@@ -20,6 +20,11 @@ sidebar_position: 1
 
 - [Сводная таблица падежей](./grammar/cases/summary)
 
+Другие разделы грамматики:
+
+- [Глаголы (Glagoli)](./grammar/verbs)
+- [Прилагательные (Pridjevi)](./grammar/adjectives/basics)
+
 А ещё посмотрите «Разговорник»:
 
 - [Частотные фразы 2025](./phrasebook/common-phrases-2025)

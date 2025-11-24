@@ -15,6 +15,8 @@ const FeatureList = [
         <Link to="/docs/grammar/cases/nominative">Именительный</Link> ·{' '}
         <Link to="/docs/grammar/cases/genitive">Родительный</Link> ·{' '}
         <Link to="/docs/grammar/cases/accusative">Винительный</Link>
+        <br />
+        <Link to="/docs/grammar/adjectives/basics">Прилагательные</Link>
       </>
     ),
   },
